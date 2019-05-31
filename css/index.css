@@ -343,5 +343,10 @@ button {
 .bottom {
     padding: 25px 0;
     margin-left: 10px;
-    /* In the design file the container width and the footer width aren't the same, not sure if it is a graphical mistake, fix later unimportant. 
-    ]
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+/* In the design file the container width and the footer width aren't the same, not sure if it is a graphical mistake, fix later unimportant. */
