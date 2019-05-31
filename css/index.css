@@ -305,3 +305,43 @@ footer nav a {
 .ten {
     background: dodgerblue;
 }
+
+/*-------About----------*/
+
+.blurb {
+    border-bottom: 1px dashed rgb(92, 87, 87);
+    padding-bottom: 20px;
+}
+
+.mid {
+    /* Parent */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 48%;
+    height: auto;
+    border-bottom: 1px dashed rgb(92, 87, 87);
+    padding: 25px 0;
+}
+
+.card button {
+    margin-top: 20px;
+}
+
+button {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 7px 15px;
+}
+
+.bottom {
+    padding: 25px 0;
+    margin-left: 10px;
+    /* In the design file the container width and the footer width aren't the same, not sure if it is a graphical mistake, fix later unimportant. 
+    ]
