@@ -350,3 +350,20 @@ button {
 }
 
 /* In the design file the container width and the footer width aren't the same, not sure if it is a graphical mistake, fix later unimportant. */
+
+/*-----Blog Page---- */
+
+.blog {
+    font-size: 120%;
+}
+
+.blog h2 {
+    font-size: 150%;
+    font-weight: bold;
+
+}
+
+.blog p {
+    margin: 20px 0 15px 0;
+    font-size: 120%;
+}
