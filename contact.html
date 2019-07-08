@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sprint Challenge - About</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="container about-page">
+
+        <header>
+            <nav class="nav">
+                <a href="index.html"><img class="logo" src="img/lambda-black.png" alt="Great Idea! Company logo."></a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Products</a>
+                <a href="blog.html">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <img class="img" src="img/banner_resized.jpg" alt="city skyline banner">
+        <!-- Animation created some wierd stuff with spacing and br is a quick fix. Not priority fix later if time. -->
+        <h1 class="h1_space"><br>Need Work Done? Contact Below.</h1>
+        <p class="blurb">
+            Nullam dui arcu, suscipit sed scelerisque ut, tempus sit amet nibh. Nam sit amet turpis lorem. Class aptent
+            taciti
+            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi et efficitur nibh, quis rutrum
+            dolor.
+            Vivamus mattis molestie tellus non iaculis. Duis molestie suscipit enim, non porttitor urna porttitor
+            feugiat. Vivamus
+            dictum volutpat elementum. Aenean eleifend accumsan urna eu rutrum. In pellentesque justo vitae purus
+            tempor, facilisis
+            efficitur velit interdum. Donec blandit velit at diam vestibulum pellentesque.
+        </p>
+
+        <!-- Contact Form from https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+        <footer>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </footer>
+    </div><!-- container -->
+</body>
+
+</html>
